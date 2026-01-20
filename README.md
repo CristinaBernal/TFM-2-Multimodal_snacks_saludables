@@ -40,7 +40,8 @@ El repositorio está organizado de la siguiente manera:
 - `README.md`: Documentación del proyecto y guía de uso.
 
 ## 3. Flujo de trabajo
-![Esquema Flujo de trabajo](imagenes/esquema_flujo2.png)
+El flujo del proyecto se presenta de la siguiente forma:
+![Esquema Flujo de trabajo](imagenes/esquema_flujo.png)
 
 ## 4. Extracción de datos
 
