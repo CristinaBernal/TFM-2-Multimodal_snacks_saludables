@@ -1,0 +1,30 @@
+Lista_Categorias,Sentimiento,source,type
+Ultraprocesado no saludable,positivo,nutt,web
+Ingrediente base,positivo,nutt,web
+Preparación casera,positivo,nutt,web
+Snack reformulado,positivo,solnatural,web
+Ingrediente base,positivo,solnatural,web
+Ultraprocesado no saludable,positivo,vitonica,web
+Ultraprocesado no saludable,negativo,vitonica,web
+Ingrediente base,negativo,vitonica,web
+Snack reformulado,positivo,vitonica,web
+Preparación casera,positivo,vitonica,web
+Snack procesado saludable,positivo,vitonica,web
+Ingrediente base,positivo,vitonica,web
+Snack procesado saludable,positivo,vitonica,web
+Ingrediente base,positivo,vitonica,web
+Snack procesado saludable,positivo,vitonica,web
+Ingrediente base,positivo,vitonica,web
+Snack procesado saludable,positivo,vitonica,web
+Snack reformulado,positivo,youtube,audio
+Snack procesado saludable,positivo,youtube,audio
+Ultraprocesado no saludable,positivo,youtube,audio
+Snack reformulado,positivo,youtube,audio
+Ingrediente base,positivo,youtube,audio
+Snack procesado saludable,positivo,youtube,audio
+Preparación casera,positivo,youtube,audio
+Snack reformulado,positivo,youtube,audio
+Ingrediente base,positivo,youtube,audio
+Snack procesado saludable,positivo,youtube,audio
+Ultraprocesado no saludable,positivo,youtube,audio
+Ingrediente base,positivo,youtube,audio

@@ -1,0 +1,24 @@
+Lista_Categorias,Lista_Atributos,Frecuencia
+Ingrediente base,conveniencia,7
+Ingrediente base,ingredientes,10
+Ingrediente base,precio,4
+Ingrediente base,sabor,6
+Ingrediente base,textura,1
+Preparación casera,conveniencia,3
+Preparación casera,ingredientes,3
+Preparación casera,precio,2
+Preparación casera,sabor,2
+Snack procesado saludable,conveniencia,7
+Snack procesado saludable,ingredientes,8
+Snack procesado saludable,precio,4
+Snack procesado saludable,sabor,6
+Snack procesado saludable,textura,1
+Snack reformulado,conveniencia,4
+Snack reformulado,ingredientes,6
+Snack reformulado,precio,3
+Snack reformulado,sabor,4
+Ultraprocesado no saludable,conveniencia,5
+Ultraprocesado no saludable,ingredientes,5
+Ultraprocesado no saludable,precio,2
+Ultraprocesado no saludable,sabor,4
+Ultraprocesado no saludable,textura,1

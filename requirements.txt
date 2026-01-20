@@ -1,0 +1,32 @@
+# Requisitos para el proyecto TFM-2-A: Multimodal Snacks Saludables
+# Manipulación y análisis de datos
+pandas
+numpy
+
+# Procesamiento de texto y NLP
+textblob
+wordcloud
+
+# Deep Learning y Transformers
+torch==2.1.2
+torchvision==0.16.2
+torchaudio==2.1.2
+transformers==4.36.2
+tokenizers==0.15.0
+accelerate
+
+# Modelos generativos (Gemini)
+google-generativeai
+python-dotenv
+
+# Visualización
+matplotlib
+seaborn
+plotly
+
+# Aplicación
+streamlit
+
+# Utilidades
+tqdm
+requests

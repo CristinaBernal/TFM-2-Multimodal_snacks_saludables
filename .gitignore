@@ -1,0 +1,5 @@
+.env
+ffmpeg.exe
+ffprobe.exe
+notebooks/ffmpeg.exe
+notebooks/ffprobe.exe

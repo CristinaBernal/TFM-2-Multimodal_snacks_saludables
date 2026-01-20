@@ -1,0 +1,99 @@
+Lista_Categorias,Lista_Atributos,Sentimiento,source,type
+Ingrediente base,conveniencia,positivo,nutt,web
+Ingrediente base,ingredientes,positivo,nutt,web
+Ingrediente base,precio,positivo,nutt,web
+Preparación casera,conveniencia,positivo,nutt,web
+Preparación casera,ingredientes,positivo,nutt,web
+Preparación casera,precio,positivo,nutt,web
+Ultraprocesado no saludable,conveniencia,positivo,nutt,web
+Ultraprocesado no saludable,ingredientes,positivo,nutt,web
+Ultraprocesado no saludable,precio,positivo,nutt,web
+Ingrediente base,ingredientes,positivo,solnatural,web
+Snack reformulado,ingredientes,positivo,solnatural,web
+Ultraprocesado no saludable,ingredientes,positivo,vitonica,web
+Ultraprocesado no saludable,conveniencia,positivo,vitonica,web
+Ultraprocesado no saludable,textura,positivo,vitonica,web
+Ultraprocesado no saludable,sabor,positivo,vitonica,web
+Ultraprocesado no saludable,ingredientes,negativo,vitonica,web
+Ultraprocesado no saludable,conveniencia,negativo,vitonica,web
+Ultraprocesado no saludable,sabor,negativo,vitonica,web
+Ingrediente base,ingredientes,negativo,vitonica,web
+Preparación casera,ingredientes,positivo,vitonica,web
+Preparación casera,conveniencia,positivo,vitonica,web
+Preparación casera,sabor,positivo,vitonica,web
+Snack reformulado,ingredientes,positivo,vitonica,web
+Snack reformulado,conveniencia,positivo,vitonica,web
+Snack reformulado,sabor,positivo,vitonica,web
+Snack procesado saludable,conveniencia,positivo,vitonica,web
+Snack procesado saludable,ingredientes,positivo,vitonica,web
+Snack procesado saludable,textura,positivo,vitonica,web
+Snack procesado saludable,sabor,positivo,vitonica,web
+Snack procesado saludable,ingredientes,positivo,vitonica,web
+Snack procesado saludable,precio,positivo,vitonica,web
+Snack procesado saludable,conveniencia,positivo,vitonica,web
+Ingrediente base,textura,positivo,vitonica,web
+Ingrediente base,sabor,positivo,vitonica,web
+Ingrediente base,ingredientes,positivo,vitonica,web
+Ingrediente base,precio,positivo,vitonica,web
+Ingrediente base,conveniencia,positivo,vitonica,web
+Snack procesado saludable,ingredientes,positivo,vitonica,web
+Snack procesado saludable,conveniencia,positivo,vitonica,web
+Snack procesado saludable,sabor,positivo,vitonica,web
+Ingrediente base,ingredientes,positivo,vitonica,web
+Ingrediente base,conveniencia,positivo,vitonica,web
+Ingrediente base,sabor,positivo,vitonica,web
+Snack procesado saludable,ingredientes,positivo,vitonica,web
+Snack procesado saludable,conveniencia,positivo,vitonica,web
+Snack procesado saludable,sabor,positivo,vitonica,web
+Ingrediente base,ingredientes,positivo,vitonica,web
+Ingrediente base,conveniencia,positivo,vitonica,web
+Ingrediente base,sabor,positivo,vitonica,web
+Snack procesado saludable,ingredientes,positivo,youtube,audio
+Snack procesado saludable,sabor,positivo,youtube,audio
+Snack procesado saludable,conveniencia,positivo,youtube,audio
+Snack procesado saludable,precio,positivo,youtube,audio
+Snack reformulado,ingredientes,positivo,youtube,audio
+Snack reformulado,sabor,positivo,youtube,audio
+Snack reformulado,conveniencia,positivo,youtube,audio
+Snack reformulado,precio,positivo,youtube,audio
+Snack reformulado,ingredientes,positivo,youtube,audio
+Snack reformulado,conveniencia,positivo,youtube,audio
+Snack reformulado,sabor,positivo,youtube,audio
+Snack reformulado,precio,positivo,youtube,audio
+Snack procesado saludable,ingredientes,positivo,youtube,audio
+Snack procesado saludable,conveniencia,positivo,youtube,audio
+Snack procesado saludable,sabor,positivo,youtube,audio
+Snack procesado saludable,precio,positivo,youtube,audio
+Preparación casera,ingredientes,positivo,youtube,audio
+Preparación casera,conveniencia,positivo,youtube,audio
+Preparación casera,sabor,positivo,youtube,audio
+Preparación casera,precio,positivo,youtube,audio
+Ingrediente base,ingredientes,positivo,youtube,audio
+Ingrediente base,conveniencia,positivo,youtube,audio
+Ingrediente base,sabor,positivo,youtube,audio
+Ingrediente base,precio,positivo,youtube,audio
+Ultraprocesado no saludable,ingredientes,positivo,youtube,audio
+Ultraprocesado no saludable,conveniencia,positivo,youtube,audio
+Ultraprocesado no saludable,sabor,positivo,youtube,audio
+Ultraprocesado no saludable,precio,positivo,youtube,audio
+Snack procesado saludable,ingredientes,positivo,youtube,audio
+Snack procesado saludable,sabor,positivo,youtube,audio
+Snack procesado saludable,conveniencia,positivo,youtube,audio
+Snack procesado saludable,precio,positivo,youtube,audio
+Snack procesado saludable,ingredientes,positivo,youtube,audio
+Ingrediente base,ingredientes,positivo,youtube,audio
+Ingrediente base,sabor,positivo,youtube,audio
+Ingrediente base,conveniencia,positivo,youtube,audio
+Ingrediente base,precio,positivo,youtube,audio
+Ingrediente base,ingredientes,positivo,youtube,audio
+Snack reformulado,ingredientes,positivo,youtube,audio
+Snack reformulado,sabor,positivo,youtube,audio
+Snack reformulado,conveniencia,positivo,youtube,audio
+Snack reformulado,precio,positivo,youtube,audio
+Snack reformulado,ingredientes,positivo,youtube,audio
+Ingrediente base,ingredientes,positivo,youtube,audio
+Ingrediente base,sabor,positivo,youtube,audio
+Ingrediente base,conveniencia,positivo,youtube,audio
+Ultraprocesado no saludable,ingredientes,positivo,youtube,audio
+Ultraprocesado no saludable,sabor,positivo,youtube,audio
+Ultraprocesado no saludable,conveniencia,positivo,youtube,audio
