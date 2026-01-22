@@ -1,4 +1,5 @@
 # Requisitos para el proyecto TFM-2-A: Multimodal Snacks Saludables
+
 # Manipulación y análisis de datos
 pandas
 numpy

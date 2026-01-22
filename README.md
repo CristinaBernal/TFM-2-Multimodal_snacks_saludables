@@ -1,5 +1,4 @@
-# Análisis Multimodal del Mercado de Snacks Saludables
-
+![Esquema Flujo de trabajo](imagenes/portada_investigacion_snacks_saludables.jpg)
 ## 0. Introducción.
 
 La empresa, especializada en el sector de la alimentación, se enfrenta al desafío de desarrollar una nueva línea de **snacks saludables** que conecte de forma efectiva con las preferencias y expectativas del consumidor moderno. Este mercado ha experimentado un crecimiento significativo en los últimos años, impulsado por hábitos de consumo más conscientes de la salud, la digitalización de la información y la creciente influencia de creadores de contenido en redes sociales.
@@ -40,7 +39,7 @@ El repositorio está organizado de la siguiente manera:
 - `README.md`: Documentación del proyecto y guía de uso.
 
 ## 3. Flujo de trabajo
-El flujo del proyecto se presenta de la siguiente forma:
+Este proyecto sigue un flujo de análisis multimodal integral, desde la extracción y transcripción de fuentes heterogéneas hasta el procesamiento con LLMs, generando resúmenes y visualizaciones interactivas en Streamlit:
 ![Esquema Flujo de trabajo](imagenes/esquema_flujo.png)
 
 ## 4. Extracción de datos
