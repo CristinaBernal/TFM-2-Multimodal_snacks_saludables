@@ -77,16 +77,14 @@ De forma complementaria, se estructuró el contenido no organizado extrayendo va
 Adicionalmente, dada la heterogeneidad semántica de los productos mencionados en las distintas fuentes, se empleó el modelo de lenguaje para **clasificar los productos en tipologías de snack** (*Snack procesado saludable, Snack reformulado, Preparación casera, Ingrediente base, Ultraprocesado no saludable, No relevante para snacks*). Esta categorización contextual es clave para interpretar patrones de consumo y construir visualizaciones relevantes.
 
 ## 7. Generación del resumen
+El análisis multimodal permitió generar un **informe estratégico de innovación en snacks saludables**, integrando fuentes textuales y audiovisuales para identificar **tendencias de consumo emergentes y oportunidades de producto**. Destaca la preferencia creciente por snacks naturales, funcionales y mínimamente procesados, así como la importancia de atributos como bienestar, rendimiento físico y conveniencia.
 
-Como resultado del análisis multimodal, el modelo generó un **informe narrativo de estrategia de mercado e innovación en snacks saludables**, integrando información procedente de fuentes textuales y audiovisuales.
+El modelo aporta nuevas visiones al sugerir combinaciones innovadoras de ingredientes y métodos de elaboración saludables (freído al aire, deshidratación), además de orientar productos específicos para deportistas, control de peso y digestión. Propone ideas concretas de nuevos snacks, transformando la información en insights accionables que apoyan la toma de decisiones estratégicas en desarrollo de producto e innovación. Desde chips vegetales de calabacín crujiente hasta barritas energéticas de legumbres y frutos secos.
 
-El informe identifica **tendencias clave de consumo**, como la creciente preferencia por snacks saludables, naturales y mínimamente procesados, así como el rechazo progresivo de productos ultraprocesados. Destaca la importancia de ingredientes funcionales y opciones asociadas al bienestar, la nutrición y la conveniencia.
-
-Asimismo, se detectan **oportunidades de innovación**, especialmente en productos orientados a personas activas, control de peso y alternativas saludables a snacks tradicionales. A partir de estos patrones, el modelo propone **ideas de nuevos productos**, proporcionando *insights* accionables para apoyar la toma de decisiones estratégicas en el desarrollo de la nueva línea de snacks.
 
 
 ## 8. Generación de insights y visualización
-A partir de los datos estructurados, se generaron:
+A partir de los datos estructurados, se generaron las siguientes visualizaciones:
 - **Distribución de Sentimiento Ponderada por Volumen de Menciones**: La distribución de sentimiento evidencia que la conversación se centra principalmente en el **Ingrediente base**, con una valoración mayoritariamente positiva, mientras que los **snacks reformulados** y **procesados saludables** presentan una aceptación plenamente positiva. En contraste, los **ultraprocesados no saludables** concentran el mayor sentimiento negativo, lo que refuerza la existencia de un entorno favorable para la innovación en snacks de perfil saludable y de calidad.
 ![Distribución de Sentimiento Ponderada por Volumen de Menciones](outputs/distribucion_categoria_sentimiento_menciones.png)
 ---
@@ -95,7 +93,9 @@ A partir de los datos estructurados, se generaron:
 ![Mapa de Calor de Atributos Valorados según Tipología de Producto](outputs/heatmap_drivers_consumo.png)
 
 ## 9. Evaluación del proyecto
-Para evaluar el rendimiento del modelo, se generaron **20 resúmenes de referencia** con distintos enfoques y se analizaron por secciones (tendencias, ingredientes, oportunidades e ideas). Los resultados muestran que **Ingredientes** y **Oportunidades** son las áreas más diferenciadoras, seguidas por **Ideas**, mientras que **Tendencias** presenta menor originalidad al alinearse con patrones de mercado ya conocidos. En conjunto, el análisis confirma que el informe aporta *insights* diferenciales y valor estratégico para la innovación en snacks saludables.
+Para evaluar el rendimiento del modelo, se generaron **20 resúmenes de referencia** mediante LLM, usando el mismo prompt y parametros que nuestro modelo, pero indicando que cada resumen tenga un enfoque distinto (proteína vegetal, snacks para niños, sostenibilidad, texturas innovadoras, etc.) para así evitar 20 resumenes idénticos. Además, se analizaron por secciones (tendencias, ingredientes, oportunidades e ideas). 
+
+Los resultados muestran que **Ingredientes** y **Oportunidades** son las áreas más diferenciadoras, seguidas por **Ideas**, mientras que **Tendencias** presenta menor originalidad al alinearse con patrones de mercado ya conocidos. En conjunto, el análisis confirma que el informe aporta *insights* diferenciales y valor estratégico para la innovación en snacks saludables.
 
 ![Mapa de Calor de Atributos Valorados según Tipología de Producto](outputs/evaluacion_resumen.png)
 
@@ -122,9 +122,9 @@ streamlit run app.py
 ![Streamlit_1](imagenes/streamlit_visualizacion.jpg)
 
 ## 11. Conclusiones
-Aunque el proyecto logró extraer y analizar un amplio volumen de información, existen ciertas limitaciones: algunos medios generalistas tuvieron que descartarse porque no permitían hacer *scraping*, y en las fuentes utilizadas puede haberse perdido parte del contexto. Por su parte, las fuentes audiovisuales aportan un gran valor, pero las transcripciones automáticas no son perfectas y el procesamiento requiere tiempo considerable.
+Los resultados muestran cómo es la situación del mercado de snacks saludables. Aunque la conversación del consumidor gira principalmente en torno a los **ingredientes**, los **snacks reformulados** y **procesados saludables** reciben valoraciones muy positivas, mientras que los **ultraprocesados no saludables** generan rechazo. Además, el mercado prioriza la calidad y la facilidad de consumo frente al coste, orientando la innovación hacia productos con composición cuidada y buen sabor como los sugeridos en el resumen: chips vegetales de calabacín crujiente o barritas energéticas de legumbres y frutos secos.
 
-Aun así, los resultados permiten dibujar un panorama claro del mercado: aunque la conversación del consumidor gira principalmente en torno a los **ingredientes**, los **snacks reformulados** y **procesados saludables** reciben valoraciones muy positivas, mientras que los **ultraprocesados no saludables** generan rechazo. Esto confirma que existe un interés real por productos que combinen **salud, sabor y calidad**.
+El proyecto consiguió extraer y analizar un gran volumen de información, aunque con ciertas limitaciones. Algunos medios generalistas no pudieron incluirse por restricciones de scraping, y parte del contexto pudo perderse en las fuentes utilizadas. Las fuentes audiovisuales aportan un valor adicional, pero sus transcripciones automáticas no son perfectas y el proceso tarda bastante en completarse.
 
 En conjunto, el proyecto ofrece **insights estratégicos y accionables** que ayudan a guiar decisiones sobre desarrollo de producto, comunicación y posicionamiento en el mercado de snacks saludables.
 
