@@ -39,8 +39,8 @@ st.markdown("---")
 # ============================================================
 # BLOQUE 2: Cargar CSV de barras y heatmap
 # ============================================================
-barras_path = OUTPUT_PATH / "powerbi_barras.csv"
-heatmap_path = OUTPUT_PATH / "powerbi_heatmap.csv"
+barras_path = OUTPUT_PATH / "barras.csv"
+heatmap_path = OUTPUT_PATH / "heatmap.csv"
 
 df_barras = pd.read_csv(barras_path) if barras_path.exists() else pd.DataFrame()
 df_heatmap = pd.read_csv(heatmap_path) if heatmap_path.exists() else pd.DataFrame()

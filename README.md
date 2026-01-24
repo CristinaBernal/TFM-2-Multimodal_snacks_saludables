@@ -1,7 +1,7 @@
 ![Esquema Flujo de trabajo](imagenes/portada_investigacion_snacks_saludables.jpg)
 ## 0. Introducción.
 
-La empresa, especializada en el sector de la alimentación, se enfrenta al desafío de desarrollar una nueva línea de **snacks saludables** que conecte de forma efectiva con las preferencias y expectativas del consumidor moderno. Este mercado ha experimentado un crecimiento significativo en los últimos años, impulsado por hábitos de consumo más conscientes de la salud, la digitalización de la información y la creciente influencia de creadores de contenido en redes sociales.
+La empresa Alisense, especializada en el sector de la alimentación, se enfrenta al desafío de desarrollar una nueva línea de **snacks saludables** que conecte de forma efectiva con las preferencias y expectativas del consumidor moderno. Este mercado ha experimentado un crecimiento significativo en los últimos años, impulsado por hábitos de consumo más conscientes de la salud, la digitalización de la información y la creciente influencia de creadores de contenido en redes sociales.
 
 El consumidor actual es cada vez más exigente, está altamente informado y expuesto a múltiples fuentes de opinión. Sin embargo, la información relevante sobre sus percepciones, gustos y motivaciones se encuentra dispersa en artículos, blogs, vídeos, podcasts y contenido generado por usuarios, lo que dificulta su análisis mediante enfoques tradicionales de investigación de mercado.
 
@@ -32,14 +32,14 @@ El repositorio está organizado de la siguiente manera:
   - [02_modelo_insights.ipynb](notebooks/02_modelo_insights.ipynb): Análisis multimodal, generación de insights y visualizaciones.
   - Se debe añadir `ffmpeg.exe` y `ffprobe.exe` para evitar errores en la transcripción de audio de videos.
 - `scripts/`
-  - [app.py](scripts/app.py): Script auxiliar utilizado para automatizar la extracción de contenido y procesamiento de datos.
-- `data/`: Carpeta con datasets originales y procesados utilizados en el análisis.
-- `imagenes/`: Imágenes utilizadas en este README.md y otros documentos.
-- `outputs/`: Resultados generados del análisis multimodal, incluyendo visualizaciones, resúmenes y insights.
+  - [app.py](scripts/app.py): Script utilizado para visualizar en Streamlit el resultado del resumen y las visualizaciones.
+- `data/`: Carpeta con los textos extraidos de las webs y audios con sus transcripciones utilizados en el análisis, así como los datasets procesados y los finalmente obtenidos.
+- `imagenes/`: Imágenes utilizadas en este README.md y de visualizaciones del análisis.
+- `outputs/`: Resultados generados del análisis multimodal, incluyendo visualizaciones, resúmenes e insights.
 - `README.md`: Documentación del proyecto y guía de uso.
 
 ## 3. Flujo de trabajo
-Este proyecto sigue un flujo de análisis multimodal integral, desde la extracción y transcripción de fuentes heterogéneas hasta el procesamiento con LLMs, generando resúmenes y visualizaciones interactivas en Streamlit:
+Este proyecto sigue un flujo de análisis multimodal, desde la extracción y transcripción de fuentes heterogéneas hasta el procesamiento con LLMs, generando resúmenes y visualizaciones interactivas en Streamlit:
 ![Esquema Flujo de trabajo](imagenes/esquema_flujo.png)
 
 ## 4. Extracción de datos
@@ -65,20 +65,6 @@ Posteriormente, los datos fueron **limpiados, normalizados y unificados** en un 
 * Eliminación de textos demasiado cortos o poco informativos.
 
 Este proceso garantiza que el dataset final sea consistente, de calidad y listo para su análisis multimodal.
-
-## 6. Modelado
-Para el modelado, se configura la clave de API y se inicializa el modelo (principal gemini-2.0-flash, con fallback a gemini-1.5-flash).
-
-Se prepara un prompt avanzado, el modelo redacta un texto completo que resume tendencias, ingredientes, oportunidades y conceptos de producto. Un informe listo para la dirección de innovación.
-
-Este informe combina todos los textos limpios en un solo documento, priorizando insights diferenciadores y conectando ideas de manera coherente. El resultado se guarda en un archivo .txt.
-
-Además se extrae información estructurada de los textos, transformando los contenidos en columnas que indiquen Productos, Atributos y Sentimiento. 
-
-El prompt se diseña de manera que el modelo devuelva un JSON estrictamente estructurado, asegurando consistencia. La función procesar_rapido() recorre cada fila del dataframe, consulta al modelo y devuelve la información limpia y lista para análisis.
-
-Al final de esta etapa se obtiene un dataset enriquecido que permite transformar texto libre en información accionable.
-
 
 ## 6. Modelado y generación de insights
 
